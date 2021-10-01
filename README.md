@@ -85,7 +85,7 @@ Console.WriteLine("Foo Bar Baz".ToStyledString(Chalk.White.Blue));
 ```
 
 ### Customize Chalk behavior
-You can customize the behavior by explicitly instancing the AnsiStyle class and use it.
+You can customize the behavior by explicitly instancing the AnsiStyle struct and use it.
 
 ```csharp
 Kokuban.AnsiStyle chalk = Chalk.Create(new KokubanOptions
